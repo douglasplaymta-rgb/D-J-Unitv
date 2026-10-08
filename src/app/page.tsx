@@ -3,8 +3,8 @@ import Landing from "@/components/landing";
 
 export const dynamic = "force-dynamic";
 export const metadata = {
-  title: "D&J UniTV | Entretenimento sem limites",
-  description: "Peça seu teste grátis, renovação de canais e acesso à TV em um só lugar. D&J UniTV.",
+  title: "D&J Entreteniment | Entretenimento sem limites",
+  description: "Peça seu teste grátis, renovação de canais e acesso à TV em um só lugar. D&J Entreteniment.",
 };
 
 export default async function HomePage() {

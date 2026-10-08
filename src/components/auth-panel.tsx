@@ -29,7 +29,7 @@ export default function AuthPanel({ configured, needsToken }: { configured: bool
       <div className="auth-story">
         <span className="eyebrow">PAINEL DOS FUNDADORES</span>
         <h1>Somente você<br/>e seu pai.<br/><span>Ninguém mais.</span></h1>
-        <p>O painel administrativo da D&J UniTV é exclusivo dos dois fundadores. Clientes entram pelo site, nunca por aqui.</p>
+        <p>O painel administrativo da D&J Entreteniment é exclusivo dos dois fundadores. Clientes entram pelo site, nunca por aqui.</p>
         <div className="auth-features">
           <span><Users size={18}/>Duas contas, acesso completo</span>
           <span><Tv size={18}/>Clientes, testes e listas no controle</span>

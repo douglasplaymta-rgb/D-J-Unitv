@@ -106,7 +106,7 @@ export default function ClientPortal({ initial }: { initial: ClientAccount }) {
             <p className="portal-note">Cole este link em um aplicativo compatível com listas M3U. Não compartilhe com outras pessoas.</p>
             <div className="copy-input"><input readOnly aria-label="Link para a TV" value={tvLink} onFocus={e => e.target.select()}/><button className="button button-primary" onClick={copy}><Copy size={15}/>Copiar</button></div>
             <a className="text-button" href={tvLink} target="_blank" rel="noopener noreferrer">Testar link<ExternalLink size={13}/></a>
-          </> : <p className="portal-note">{!data.configured ? "A D&J UniTV ainda está concluindo a ativação do painel. Em breve o link da TV é liberado." : !active ? "Renove ou inicie o teste para liberar o link." : !data.playlist?.hasSource ? "Sua lista ainda não tem uma fonte de canais cadastrada. A equipe D&J faz essa vinculação." : "Seu acesso está indisponível no momento."}</p>}
+          </> : <p className="portal-note">{!data.configured ? "A D&J Entreteniment ainda está concluindo a ativação do painel. Em breve o link da TV é liberado." : !active ? "Renove ou inicie o teste para liberar o link." : !data.playlist?.hasSource ? "Sua lista ainda não tem uma fonte de canais cadastrada. A equipe D&J faz essa vinculação." : "Seu acesso está indisponível no momento."}</p>}
         </article>
       </section>
 
@@ -129,7 +129,7 @@ export default function ClientPortal({ initial }: { initial: ClientAccount }) {
             </ul>}
         </article>
       </section>
-      <p className="portal-disclaimer"><Info size={14}/> A D&J UniTV organiza o seu acesso. Canais, disponibilidade e regras do provedor não são operados por este portal.</p>
+      <p className="portal-disclaimer"><Info size={14}/> A D&J Entreteniment organiza o seu acesso. Canais, disponibilidade e regras do provedor não são operados por este portal.</p>
     </main>
     {toast && <div className={`toast ${toast.error ? "toast-error" : ""}`} role="status"><span>{toast.error ? "!" : <Check size={17}/>}</span>{toast.message}</div>}
   </div>;

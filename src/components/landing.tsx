@@ -12,7 +12,7 @@ export default function Landing() {
   return (
     <div className="site">
       <header className="site-header">
-        <a href="/" className="site-brand" aria-label="D&J UniTV"><Brand /></a>
+        <a href="/" className="site-brand" aria-label="D&J Entreteniment"><Brand /></a>
         <nav className="site-nav" aria-label="Principal">
           <a href="#planos">Planos</a>
           <a href="#como-funciona">Como funciona</a>
@@ -65,7 +65,7 @@ export default function Landing() {
       <section className="site-section" id="planos">
         <div className="site-kicker">PLANOS</div>
         <h2>Escolha o tempo da sua conexão.</h2>
-        <p className="site-lead">Valores de referência. A contratação e a renovação são combinadas diretamente pelo WhatsApp da D&J UniTV.</p>
+        <p className="site-lead">Valores de referência. A contratação e a renovação são combinadas diretamente pelo WhatsApp da D&J Entreteniment.</p>
         <div className="site-plans">
           {Object.entries(PLANS).map(([name, info], i) => (
             <article key={name} className={`site-plan ${i === 1 ? "featured" : ""}`}>
@@ -106,7 +106,7 @@ export default function Landing() {
         <div>
           <Brand /><p>Entretenimento que conecta. Gestão que simplifica.</p>
         </div>
-        <small>© {new Date().getFullYear()} D&J UniTV. Conteúdo e fontes de canais dependem de provedores autorizados.</small>
+        <small>© {new Date().getFullYear()} D&J Entreteniment. Conteúdo e fontes de canais dependem de provedores autorizados.</small>
       </footer>
     </div>
   );

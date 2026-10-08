@@ -35,7 +35,7 @@ export default function ClientAuth({ mode }: { mode: "login" | "register" }) {
           <span><LockKeyhole size={18}/>Renovação acompanhada por você</span>
         </div>
       </div>
-      <div className="auth-brand-foot"><span className="online-dot"/>D&J UniTV · Conexão sem limites</div>
+      <div className="auth-brand-foot"><span className="online-dot"/>D&J Entreteniment · Conexão sem limites</div>
     </section>
     <section className="auth-form-panel">
       <div className="auth-form-wrap">

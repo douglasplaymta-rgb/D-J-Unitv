@@ -22,10 +22,10 @@ configured: boolean;
 };
 export type View = "overview" | "clients" | "renewals" | "trials" | "requests" | "playlists" | "finance" | "reports" | "settings";
 export const PLANS: Record<string, { months: number; price: number; description: string }> = {
-  Mensal: { months: 1, price: 3000, description: "Flexibilidade para o dia a dia" },
-  Trimestral: { months: 3, price: 8000, description: "Mais tempo, mais economia" },
-  Semestral: { months: 6, price: 15000, description: "Entretenimento sem preocupação" },
-  Anual: { months: 12, price: 28000, description: "Um ano inteiro de conexão" },
+  "Plano CS Mensal": { months: 1, price: 10, description: "Acesso via CS com ótimo custo-benefício" },
+  "IPTV Mensal": { months: 1, price: 25, description: "Canais, filmes e séries completos" },
+  "UniTV Mensal": { months: 1, price: 25, description: "Qualidade e estabilidade superior" },
+  "UniTV Anual": { months: 12, price: 180, description: "Qualidade e estabilidade superior" },
 };
 export const money = (cents: number) => new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(cents / 100);
 export const date = (value: string | Date, short = false) => new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: short ? "short" : "2-digit", ...(short ? {} : { year: "numeric" }) }).format(new Date(value));
