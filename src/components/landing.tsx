@@ -23,12 +23,20 @@ export default function Landing() {
       <section className="site-hero">
         <img src="/images/landing-living.jpg" alt="" className="site-hero-photo"/>
         <div className="site-hero-shade"/>
-        <div className="site-hero-copy">
-          <span className="banner eyebrow"><Sparkles size={12}/> CONEXÃO SEM LIMITES</span>
-          <h1>Seu entretenimento na sua TV. Do seu jeito.</h1>
-          <p>Peça seu teste grátis de 24 horas agora mesmo pelo WhatsApp, escolha seu plano e curta seus canais com qualidade.</p>
+        <div className="site-hero-copy" style={{ paddingTop: '20px', paddingBottom: '30px' }}>
+          <span className="banner eyebrow"><Sparkles size={14}/> CONEXÃO SEM LIMITES</span>
+          <h1 style={{ fontSize: '3rem', lineHeight: '1.2', marginBottom: '20px' }}>Seu entretenimento na sua TV. Do seu jeito.</h1>
+          <p style={{ fontSize: '1.15rem', marginBottom: '30px', lineHeight: '1.6' }}>Peça seu teste grátis de 24 horas agora mesmo pelo WhatsApp, escolha seu plano e curta seus canais com qualidade.</p>
           <div className="site-hero-actions">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="button button-primary" style={{ marginTop: '35px', marginBottom: '35px', display: 'inline-block' }}><Play size={16}/> Peça seu Teste Grátis</a>
+            <a 
+              href={whatsappUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="button button-primary" 
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', padding: '16px 28px', fontSize: '1.1rem', marginTop: '10px', marginBottom: '20px' }}
+            >
+              <Play size={20}/> Peça seu Teste Grátis
+            </a>
           </div>
         </div>
         <ul className="site-hero-points">
