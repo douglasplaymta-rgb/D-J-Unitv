@@ -35,7 +35,7 @@ export default function Landing() {
               className="button button-primary" 
               style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', padding: '16px 28px', fontSize: '1.1rem', marginTop: '10px', marginBottom: '20px' }}
             >
-              <Play size={20}/> Peça seu Teste Grátis
+              <Play size={40}/> Peça seu Teste Grátis
             </a>
           </div>
         </div>
