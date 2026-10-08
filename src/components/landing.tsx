@@ -28,7 +28,7 @@ export default function Landing() {
           <h1>Seu entretenimento na sua TV. Do seu jeito.</h1>
           <p>Peça seu teste grátis de 24 horas agora mesmo pelo WhatsApp, escolha seu plano e curta seus canais com qualidade.</p>
           <div className="site-hero-actions">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="button button-primary" style={{ marginTop: '20px', display: 'inline-block' }}><Play size={16}/> Peça seu Teste Grátis</a>
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="button button-primary" style={{ marginTop: '35px', marginBottom: '35px', display: 'inline-block' }}><Play size={16}/> Peça seu Teste Grátis</a>
           </div>
         </div>
         <ul className="site-hero-points">
