@@ -46,7 +46,7 @@ export default function ClientPortal({ initial }: { initial: ClientAccount }) {
 
   return <div className="portal">
     <header className="portal-top">
-      <a href="/" className="site-brand" aria-label="D&J UniTV"><Brand/></a>
+      <a href="/" className="site-brand" aria-label="D&J Entreteniment"><Brand/></a>
       <div className="portal-user">
         <span>{client.name.split(" ")[0]}</span>
         <button className="text-button" onClick={logout}><LogOut size={15}/>Sair</button>
@@ -84,7 +84,7 @@ export default function ClientPortal({ initial }: { initial: ClientAccount }) {
 
         <article className="card portal-card portal-renew">
           <div className="card-heading"><div><h2>Renovar canais</h2><p>Escolha o plano e envie o pedido</p></div><RefreshCw size={18}/></div>
-          {pending ? <div className="pending-box"><CalendarDays size={18}/><div><strong>Pedido em análise</strong><p>Plano {pending.plan} · {money(pending.amount)}. A D&J UniTV confirma após o pagamento combinado.</p></div></div>
+          {pending ? <div className="pending-box"><CalendarDays size={18}/><div><strong>Pedido em análise</strong><p>Plano {pending.plan} · {money(pending.amount)}. A D&J Entreteniment confirma após o pagamento combinado.</p></div></div>
             : <form onSubmit={e => { e.preventDefault(); act("renew", { plan, message: new FormData(e.currentTarget).get("message") }); }}>
               <div className="plan-options">{Object.entries(PLANS).map(([name, info]) => (
                 <label key={name} className={plan === name ? "plan-option selected" : "plan-option"}>

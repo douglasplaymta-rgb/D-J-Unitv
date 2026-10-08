@@ -36,7 +36,7 @@ export default function AuthPanel({ configured, needsToken }: { configured: bool
           <span><ShieldCheck size={18}/>Ambiente zerado para ir ao ar</span>
         </div>
       </div>
-      <div className="auth-brand-foot"><span className="online-dot"/>D&J UniTV · Administração privada</div>
+      <div className="auth-brand-foot"><span className="online-dot"/>D&J Entreteniment · Administração privada</div>
     </section>
     <section className="auth-form-panel">
       <div className="auth-form-wrap">
@@ -78,7 +78,7 @@ export default function AuthPanel({ configured, needsToken }: { configured: bool
         </form>
         <div className="auth-trust"><Check size={14}/> Senhas criptografadas <span>·</span> Clientes não entram aqui</div>
       </div>
-      <footer>D&J UniTV © {new Date().getFullYear()} · Painel exclusivo dos fundadores.</footer>
+      <footer>D&J Entreteniment © {new Date().getFullYear()} · Painel exclusivo dos fundadores.</footer>
     </section>
   </main>;
 }

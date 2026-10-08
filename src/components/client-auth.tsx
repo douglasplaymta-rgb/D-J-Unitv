@@ -64,7 +64,7 @@ export default function ClientAuth({ mode }: { mode: "login" | "register" }) {
         <p className="auth-switch">{register ? <>Já tem conta? <a href="/entrar">Entrar</a></> : <>Novo por aqui? <a href="/cadastro">Criar conta e testar grátis</a></>}</p>
         <div className="auth-trust"><Check size={14}/> Senha protegida <span>·</span> Um teste por conta</div>
       </div>
-      <footer>D&J UniTV © {new Date().getFullYear()}</footer>
+      <footer>D&J Entreteniment © {new Date().getFullYear()}</footer>
     </section>
   </main>;
 }

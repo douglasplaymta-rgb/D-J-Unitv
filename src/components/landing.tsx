@@ -43,7 +43,7 @@ export default function Landing() {
         <h2>Tudo o que importa, em um só lugar.</h2>
         <div className="site-features">
           {[
-            { icon: Zap, title: "Teste grátis na hora", text: "Fale connosco no WhatsApp e libere 24 horas para conhecer a experiência D&J UniTV." },
+            { icon: Zap, title: "Teste grátis na hora", text: "Fale connosco no WhatsApp e libere 24 horas para conhecer a experiência D&J Entreteniment." },
             { icon: Tv, title: "Canais na sua TV", text: "Receba seu link individual e adicione em um aplicativo compatível com lista M3U." },
             { icon: Smartphone, title: "Renove quando quiser", text: "Escolha o plano, combine a renovação e mantenha sua conexão ativa." },
             { icon: ShieldCheck, title: "Qualidade garantida", text: "Suporte dedicado e estabilidade para você curtir sem travamentos." }
