@@ -10,7 +10,7 @@ export function Brand() {
       <img 
         src="/images/logo.png" 
         alt="D&J Entretenimento" 
-        style={{ height: '52px', width: 'auto', objectFit: 'contain' }} 
+        style={{ height: '75px', width: 'auto', objectFit: 'contain' }} 
       />
     </div>
   );
