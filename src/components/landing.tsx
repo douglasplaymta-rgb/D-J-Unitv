@@ -11,7 +11,7 @@ export default function Landing() {
 
   return (
     <div className="site">
-      <header className="site-header">
+      <header className="site-header" style={{ height: '110px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <a href="/" className="site-brand" aria-label="D&J Entreteniment"><Brand /></a>
         <nav className="site-nav" aria-label="Principal">
           <a href="#planos">Planos</a>
@@ -23,7 +23,7 @@ export default function Landing() {
       <section className="site-hero">
         <img src="/images/landing-living.jpg" alt="" className="site-hero-photo"/>
         <div className="site-hero-shade"/>
-        <div className="site-hero-copy" style={{ paddingTop: '20px', paddingBottom: '30px' }}>
+        <div className="site-hero-copy" style={{ paddingTop: '20px', paddingBottom: '40px' }}>
           <span className="banner eyebrow"><Sparkles size={14}/> CONEXÃO SEM LIMITES</span>
           <h1 style={{ fontSize: '3rem', lineHeight: '1.2', marginBottom: '20px' }}>Seu entretenimento na sua TV. Do seu jeito.</h1>
           <p style={{ fontSize: '1.15rem', marginBottom: '30px', lineHeight: '1.6' }}>Peça seu teste grátis de 24 horas agora mesmo pelo WhatsApp, escolha seu plano e curta seus canais com qualidade.</p>

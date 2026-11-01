@@ -11,7 +11,7 @@ export function Brand() {
         src="/images/logo.png" 
         alt="D&J Entretenimento" 
         style={{ 
-          height: '75px', // Aumentado para dar muito mais destaque!
+          height: '95px', // Altura ideal para a logo ficar bem grande e imponente
           width: 'auto', 
           objectFit: 'contain' 
         }} 
