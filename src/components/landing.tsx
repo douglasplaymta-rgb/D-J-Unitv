@@ -11,7 +11,7 @@ export default function Landing() {
 
   return (
     <div className="site">
-      <header className="site-header" style={{ height: '110px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      <header className="site-header">
         <a href="/" className="site-brand" aria-label="D&J Entreteniment"><Brand /></a>
         <nav className="site-nav" aria-label="Principal">
           <a href="#planos">Planos</a>
